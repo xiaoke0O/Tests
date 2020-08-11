@@ -2,6 +2,7 @@
 
 ## 内容
 
+```bash
 .
 ├── LICENSE
 ├── Qt
@@ -11,3 +12,4 @@
 └── README.md
 
 2 directories, 4 files
+```
