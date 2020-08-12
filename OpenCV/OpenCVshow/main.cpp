@@ -1,7 +1,4 @@
-﻿// OpenCVshow.cpp: 定义应用程序的入口点。
-//
-
-#include <iostream>
+﻿#include <iostream>
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>
 #include <vector>
