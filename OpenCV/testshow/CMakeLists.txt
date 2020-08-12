@@ -1,7 +1,7 @@
 ﻿cmake_minimum_required (VERSION 3.10)
 
-project ("OpenCVshow")
+project ("TestOpenCVshow")
 find_package(OpenCV)
-add_executable (OpenCVshow "main.cpp" )
+add_executable (${PROJECT_NAME} "main.cpp" )
 
 target_link_libraries(${PROJECT_NAME} ${OpenCV_LIBS})
