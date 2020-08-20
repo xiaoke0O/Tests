@@ -16,7 +16,7 @@ void fillimg(Mat img, vector<Scalar> colors) {
     int colorsNum = colors.size();
     int step = img.rows / colorsNum;
     for (int i = 0; i < colorsNum; i++) {
-        rectangle(img, Point(0, y), Point(400, y + step), colors[i], FILLED);
+        rectangle(img, Point(0, y), Point(img.cols, y + step), colors[i], FILLED);
         y += step;
     }
 }
