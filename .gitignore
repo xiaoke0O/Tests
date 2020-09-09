@@ -1,0 +1,12 @@
+build*/
+# Qt ui file
+ui_*.h
+# qtcreator generated files
+*.user
+
+# clion
+cmake-*/
+.idea/
+
+# vscide
+.vscode/
