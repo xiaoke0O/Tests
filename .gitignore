@@ -8,5 +8,5 @@ ui_*.h
 cmake-*/
 .idea/
 
-# vscide
+# vscode
 .vscode/
