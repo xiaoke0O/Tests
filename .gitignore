@@ -10,3 +10,11 @@ cmake-*/
 
 # vscode
 .vscode/
+
+# Assets
+Assets/
+
+# files
+
+*.hdf
+*.h5
